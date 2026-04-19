@@ -10,6 +10,7 @@ sigma = 0.30
 S0 = 100.0
 T = 1
 n = 252
+Ns = 1000
 c = 0.95
 zc = norm.ppf(c)
 steps = T*n
@@ -19,7 +20,7 @@ Rs = []
 
 
 #MULTIPLE PRICE PATHS SIMULATION PROCESS
-for path in range(10000):
+for path in range(Ns):
   S = [S0]
   for step in range(steps):
     Z = np.random.normal(0, 1)
