@@ -25,12 +25,12 @@ Ns = Number Of Simulations
 
 
 #PARAMETERS
-S0 = 100
-mu = 0.2
-sigma = 0.2
-n = 252
-T = 1
-Ns = 1000
+S0 = _ #Replace the underscore with Initial Price
+mu = _ #Replace the underscore with Mean Return / Expected Return (Drift)
+sigma = _ #Replace the underscore with Volatility (Constant)
+n = _ #Replace the underscore with the Number Of Time Periods
+T = _ #Replace the underscore with the Number Of Years
+Ns = _ #Replace the underscore with the Number Of Simulations
 dt = T / n
 Rs = []
 
