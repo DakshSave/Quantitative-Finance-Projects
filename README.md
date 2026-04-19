@@ -1,2 +1,2 @@
-# GBM_Simulation_Project
-In this project I simulated Geometric Brownian Motion, particularly in the context of Quantitative Finance. Made completely in Python, using libraries like NumPy and Matplotlib.
+# Quantitative Finance Projects
+In this repository I store all my projects related to Quantitative / Mathematical Finance.
