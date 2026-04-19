@@ -33,13 +33,13 @@ Rt = Return On Every Step Of A Path
 
 
 #PARAMETERS
-mu = 0.14
-sigma = 0.30
-S0 = 100.0
-T = 1
-n = 252
-c = 0.95
-Ns = 1000
+mu = _ #Replace the underscore with Mean Return / Expected Return (Drift)
+sigma = _ #Replace the underscore with Volatility (Constant)
+S0 = _ #Replace the underscore with the Initial Price
+T = _ #Replace the underscore with the Number Of Years
+n = _ #Replace the underscore with the Number Of Time Periods
+c = _ #Replace the underscore with the Confidence Level
+Ns = _ #Replace the underscore with the Number Of Simulations
 zc = norm.ppf(c)
 steps = T*n
 dt = T/n
